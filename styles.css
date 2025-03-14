@@ -1,0 +1,19 @@
+html{
+    background: #2c2c2c;
+}
+body{
+    text-align: center;
+    color: #ddffdb;
+    font-family: 'League Gothic';
+}
+a[href]{
+    color: cadetblue;
+    
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+

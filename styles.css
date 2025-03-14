@@ -1,13 +1,17 @@
 html{
-    background: #2c2c2c;
+    height: 100%;
+    background: linear-gradient(#010101 , #101010 );
 }
 body{
     text-align: center;
+    text-shadow: 4px 4px 5px black;
     color: #ddffdb;
     font-family: 'League Gothic';
 }
 a[href]{
     color: cadetblue;
+    cursor: grab;
+    text-decoration: none;
     
 }
 h1{
@@ -17,3 +21,13 @@ h2{
     font-size: 50px;
 }
 
+#title{
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 20px;
+    width: auto;
+    
+   
+    background: radial-gradient(#002402,#001102);
+    
+}

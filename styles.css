@@ -8,27 +8,41 @@ body{
     text-shadow: 4px 4px 5px black;
     color: #ddffdb;
     font-family: 'League Gothic';
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
 }
+@keyframes example {
+    from {color: #ddffdb;}
+    to {color: rgb(126, 167, 168);}
+  }
 a[href]{
     color: cadetblue;
     cursor: grab;
     text-decoration: none;
     font-size: 150%;
     
+    
 }
 h1{
     font-size: 400%;
+    margin: auto;
+
 }
 h2{
     font-size: 250%;
+    margin: auto;
 }
 
 #title{
     text-align: center;
     box-shadow: 0px 0px 20px black;
     border-radius: 20px;
-    width: auto;
-    
+    margin-left: +20%;
+    margin-right: +20%;
+    padding-bottom: 2%;
    
     background: radial-gradient(#002402,#001102);
     

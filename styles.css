@@ -14,6 +14,17 @@ body{
     animation-direction: alternate;
     
 }
+#home {
+    animation-name: home;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes home {
+    from {color: #680000;}
+    to {color: rgb(68, 0, 0);}
+  }
 @keyframes example {
     from {color: #ddffdb;}
     to {color: rgb(126, 167, 168);}

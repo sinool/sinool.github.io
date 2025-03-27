@@ -58,3 +58,7 @@ h2{
     background: radial-gradient(#002402,#001102);
     
 }
+video{
+    max-width: 100%;
+    height: auto;
+}

@@ -1,22 +1,22 @@
 html{
-    text-align: center;
+    height: 100%;
     background: linear-gradient(#010101 , #101010 );
     background-attachment: fixed;
 }
 body{
-    
+    text-align: center;
     text-shadow: 4px 4px 5px black;
     color: #ddffdb;
     font-family: 'League Gothic';
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     
 }
 #home {
     animation-name: home;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
@@ -26,24 +26,24 @@ body{
     to {color: rgb(68, 0, 0);}
   }
 @keyframes example {
-    from {color: #ddffdb;}
-    to {color: rgb(126, 167, 168);}
+    from {color: rgb(132, 198, 218);}
+    to {color: rgb(47, 110, 146);}
   }
 a[href]{
     color: cadetblue;
     cursor: grab;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 200%;
     
     
 }
 h1{
-    font-size: 400%;
+    font: size 300%;
     margin: auto;
 
 }
 h2{
-    font-size: 250%;
+    font-size: 200%;
     margin: auto;
 }
 
